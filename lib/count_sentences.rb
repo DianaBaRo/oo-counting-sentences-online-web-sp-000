@@ -19,7 +19,7 @@ class String
     if array_whit_sentences.length == 0
       0
     else
-      array_whit_sentences.count
+      array_whit_sentences.length
     end
   end
 end
