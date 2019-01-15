@@ -25,4 +25,3 @@ class String
 end
 #(/(?<=[?.!])\s*/)
 #array_whit_sentences.reject! { |s| s.strip.empty? }
-arr = arr.filter(v=>v!='');
