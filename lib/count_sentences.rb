@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     array_whit_sentences = self.split(/(?<=[?.!])\s*/)
+    array_whit_sentences = array_whit_sentences.filter(Boolean)
     if array_whit_sentences.to_s.length == 0
       return 0
     else
@@ -25,3 +26,7 @@ class String
 end
 #(/(?<=[?.!])\s*/)
 #array_whit_sentences.reject! { |s| s.strip.empty? }
+var arr = ["I", "am", "", "still", "here", "", "man"]
+// arr = ["I", "am", "", "still", "here", "", "man"]
+arr = arr.filter(Boolean)
+// arr = ["I", "am", "still", "here", "man"]
