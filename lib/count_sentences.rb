@@ -19,7 +19,7 @@ class String
     if array_whit_sentences.to_s.length == 0
       return 0
     else
-      return array_whit_sentences.length + 1
+      return array_whit_sentences.length
     end
   end
 end
