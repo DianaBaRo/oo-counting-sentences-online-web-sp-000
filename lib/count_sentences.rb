@@ -23,5 +23,3 @@ class String
     end
   end
 end
-#(/(?<=[?.!])\s*/)
-#array_whit_sentences.reject! { |s| s.strip.empty? }
