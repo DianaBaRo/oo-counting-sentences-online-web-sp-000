@@ -19,7 +19,7 @@ class String
     if array_whit_sentences.count == 0
       0
     else
-      array_whit_sentences.reject { |c| c.empty? }.count
+      array_whit_sentences.count
     end
   end
 end
