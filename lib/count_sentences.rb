@@ -19,7 +19,7 @@ class String
     if array_whit_sentences.to_s.length == 0
       0
     else
-      array_whit_sentences.reject { |c| c.empty? }.length
+      array_whit_sentences.reject { |c| c.empty? }.count
     end
   end
 end
