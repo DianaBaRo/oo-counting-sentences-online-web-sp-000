@@ -25,4 +25,4 @@ class String
   end
 end
 #(/(?<=[?.!])\s*/)
-/[\s!@$#%^&*()\-=_+\[\]:;,.\/<>?\\|]/
+#array_whit_sentences.reject! { |s| s.strip.empty? }
