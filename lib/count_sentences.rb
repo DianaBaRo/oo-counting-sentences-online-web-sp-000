@@ -26,7 +26,3 @@ class String
 end
 #(/(?<=[?.!])\s*/)
 #array_whit_sentences.reject! { |s| s.strip.empty? }
-var arr = ["I", "am", "", "still", "here", "", "man"]
-// arr = ["I", "am", "", "still", "here", "", "man"]
-arr = arr.filter(Boolean)
-// arr = ["I", "am", "still", "here", "man"]
