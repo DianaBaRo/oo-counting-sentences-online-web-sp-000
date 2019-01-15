@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    array_whit_sentences = self.split(/(?<=[?.!])\s*/)
+    array_whit_sentences = self.split(/(?<=[?.!])/)
     array_whit_sentences = array_whit_sentences.reject! { |s| s.strip.empty? }
     if array_whit_sentences.to_s.length == 0
       return 0
@@ -24,3 +24,5 @@ class String
     end
   end
 end
+#(/(?<=[?.!])\s*/)
+/[\s!@$#%^&*()\-=_+\[\]:;,.\/<>?\\|]/
